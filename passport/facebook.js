@@ -65,7 +65,7 @@ module.exports = function(passport) {
 						// setup e-mail data with unicode symbols
 						var mailOptions = {
 						    from: "A CS201 Web Troll  <ashboy84@gmail.com>", // sender address
-						    to: "dylanmrowe@gmail.com", // list of receivers
+						    to: "" + newUser.fb.email, // list of receivers
 						    subject: "💕 You're a mean person 💕", // Subject line
 						    text: "Don't spam your friends.", // plaintext body
 						    html: "<b>Don't spam your friends.</b> <br>  <img src='http://b1969d.medialib.glogster.com/media/48772393b279e6c9a2c02358aaa092f4251dc7648adaf2f15f27edb7ecbec257/ie-6-troll-internet-explorer-browser-trollface.png' />", // html body
