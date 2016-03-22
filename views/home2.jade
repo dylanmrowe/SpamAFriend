@@ -1,0 +1,19 @@
+extends layout
+
+block content
+
+	div.container
+		div.row
+			div.col-sm-6.col-md-4.col-md-offset-4
+				#user
+					img(src= "#{user.fb.picture1}")
+					h1.text-center.login-title Welcome #{user.fb.firstName}. 
+						p(style='white-space:pre;')
+							|I see you are of the #{user.fb.gender} persuasion.
+							| ...
+							|Check #{user.fb.email} to learn your lesson.
+							|Don't spam your friends. =)
+						a(href='/signout', class='text-center new-account') Sign Out
+
+						
+						

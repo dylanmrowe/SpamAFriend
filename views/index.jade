@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	div.container
+		div.row
+			div.col-sm-6.col-md-3.col-md-offset-4
+				img(src='/stylesheets/images/heartmailtransparent.png', class='logo-img')
+				h1.text-center.login-title Welcome to 
+				h1.text-center.login-title2 SpamAFriend
+				a(href='/login/facebook', class='btn btn-block btn-social btn-facebook') Login with Facebook
+					i(class='fa fa-facebook')

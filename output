@@ -1,0 +1,319 @@
+nohup: ignoring input
+{ [Error: Cannot find module '../build/Release/bson'] code: 'MODULE_NOT_FOUND' }
+js-bson: Failed to load c++ bson extension, using pure JS version
+[90mGET / [36m304 [90m269ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET /stylesheets/images/heartmailtransparent.png [36m304 [90m1ms[0m
+[90mGET /stylesheets/bootstrap-social.css [36m304 [90m1ms[0m
+profile { id: '10208858072274932',
+  username: undefined,
+  displayName: undefined,
+  name: 
+   { familyName: 'Nielson',
+     givenName: 'Jordan',
+     middleName: undefined },
+  gender: 'male',
+  profileUrl: 'https://www.facebook.com/app_scoped_user_id/10208858072274932/',
+  emails: [ { value: 'jnielson94@gmail.com' } ],
+  photos: [ { value: 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p200x200/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615' } ],
+  provider: 'facebook',
+  _raw: '{"id":"10208858072274932","email":"jnielson94\\u0040gmail.com","gender":"male","link":"https:\\/\\/www.facebook.com\\/app_scoped_user_id\\/10208858072274932\\/","locale":"en_US","picture":{"data":{"is_silhouette":false,"url":"https:\\/\\/scontent.xx.fbcdn.net\\/hprofile-xta1\\/v\\/t1.0-1\\/p200x200\\/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615"}},"last_name":"Nielson","first_name":"Jordan","timezone":-6,"updated_time":"2015-11-16T04:30:25+0000","verified":true}',
+  _json: 
+   { id: '10208858072274932',
+     email: 'jnielson94@gmail.com',
+     gender: 'male',
+     link: 'https://www.facebook.com/app_scoped_user_id/10208858072274932/',
+     locale: 'en_US',
+     picture: { data: [Object] },
+     last_name: 'Nielson',
+     first_name: 'Jordan',
+     timezone: -6,
+     updated_time: '2015-11-16T04:30:25+0000',
+     verified: true } }
+serializing user: 
+{ __v: 0,
+  _id: 56f173f598227c700cb5411a,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p200x200/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615',
+     email: 'jnielson94@gmail.com',
+     gender: 'male',
+     lastName: 'Nielson',
+     firstName: 'Jordan',
+     access_token: 'CAADcUa3JSTMBAAdEKnv5M8O7gbz7vwx5cYcT5cEHAW5YMUtxq1nCzaNkm5qAPhpbN89rn8IbVlh6nD9lAdBeit6jAa4WSxUOsNrxZCRXHrHFvhFZA6S45smjDN40C9JgPoM4RUhLRgtVhIYbroykSZCQunUbSMLQ5lZBDEC0nHL647WFQOId9HCK0rjuZAePZB21MGZAdZCdIioZChnLwtWhXs715mXoqBZAs65ZC7cON5BMvcdzZCQTtOgd',
+     id: '10208858072274932' } }
+[90mGET /login/facebook/callback?code=AQAxnBDT3kAxM3PC6G4lqGN4GPEumBme13BUXJOj7qJrM_Cd3G4zcHZCDoP8SigcMneOfeZjpdeLAwmSCQlCBumz1aamIGpio5GCv_bvtfGOgSMfjAkH0UAVvJmDIwnH-pPSjiHVvpTw-p-6NnCs0IT1E74MB9DId2zswyS0lE9KGvh8bRc7jx9Mdr_JTTndb6d3vwGEIn1gQhCheHQzcLFAmUDW9io5P4RqqMHpWeAOsc4Z8-V-I9EtZa1LZQpVaIbHGeMVvUMGxtO51OysfKYtWkA-JVSKkKY76HtdMQDNnyq-54jTSPekqqoTAwctaT8k6bG9YsKvw3HvN-z7MyjIW0BWuULP_aB7GS7vfSdQjA [36m302 [90m573ms - 54b[0m
+deserializing user: { _id: 56f173f598227c700cb5411a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p200x200/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615',
+     email: 'jnielson94@gmail.com',
+     gender: 'male',
+     lastName: 'Nielson',
+     firstName: 'Jordan',
+     access_token: 'CAADcUa3JSTMBAAdEKnv5M8O7gbz7vwx5cYcT5cEHAW5YMUtxq1nCzaNkm5qAPhpbN89rn8IbVlh6nD9lAdBeit6jAa4WSxUOsNrxZCRXHrHFvhFZA6S45smjDN40C9JgPoM4RUhLRgtVhIYbroykSZCQunUbSMLQ5lZBDEC0nHL647WFQOId9HCK0rjuZAePZB21MGZAdZCdIioZChnLwtWhXs715mXoqBZAs65ZC7cON5BMvcdzZCQTtOgd',
+     id: '10208858072274932' } }
+[90mGET /home [32m200 [90m66ms - 964b[0m
+[90mGET /stylesheets/bootstrap-social.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+{ [Error: Data command failed - 421 4.7.0 Temporary System Problem.  Try again later (WS). l11sm32677628pfb.56 - gsmtp]
+  data: '421 4.7.0 Temporary System Problem.  Try again later (WS). l11sm32677628pfb.56 - gsmtp',
+  stage: 'data' }
+{ [Error: Data command failed - 421 4.7.0 Temporary System Problem.  Try again later (WS). yx1sm25838411pac.29 - gsmtp]
+  data: '421 4.7.0 Temporary System Problem.  Try again later (WS). yx1sm25838411pac.29 - gsmtp',
+  stage: 'data' }
+{ [Error: Data command failed - 421 4.7.0 Temporary System Problem.  Try again later (WS). ql1sm49508145pac.24 - gsmtp]
+  data: '421 4.7.0 Temporary System Problem.  Try again later (WS). ql1sm49508145pac.24 - gsmtp',
+  stage: 'data' }
+{ [Error: Data command failed - 421 4.7.0 Temporary System Problem.  Try again later (WS). wx3sm49545869pab.25 - gsmtp]
+  data: '421 4.7.0 Temporary System Problem.  Try again later (WS). wx3sm49545869pab.25 - gsmtp',
+  stage: 'data' }
+{ [Error: Data command failed - 421 4.7.0 Temporary System Problem.  Try again later (WS). 83sm25322674pfn.46 - gsmtp]
+  data: '421 4.7.0 Temporary System Problem.  Try again later (WS). 83sm25322674pfn.46 - gsmtp',
+  stage: 'data' }
+{ [Error: Data command failed - 421 4.7.0 Temporary System Problem.  Try again later (WS). tp9sm49535277pab.14 - gsmtp]
+  data: '421 4.7.0 Temporary System Problem.  Try again later (WS). tp9sm49535277pab.14 - gsmtp',
+  stage: 'data' }
+{ [Error: Data command failed - 421 4.7.0 Temporary System Problem.  Try again later (WS). yj1sm49540940pac.16 - gsmtp]
+  data: '421 4.7.0 Temporary System Problem.  Try again later (WS). yj1sm49540940pac.16 - gsmtp',
+  stage: 'data' }
+{ [Error: Data command failed - 421 4.7.0 Temporary System Problem.  Try again later (WS). rw2sm49550623pab.30 - gsmtp]
+  data: '421 4.7.0 Temporary System Problem.  Try again later (WS). rw2sm49550623pab.30 - gsmtp',
+  stage: 'data' }
+Message sent: 250 2.0.0 OK 1458664390 m89sm49512805pfi.12 - gsmtp
+Message sent: 250 2.0.0 OK 1458664390 wh9sm49525812pab.8 - gsmtp
+Message sent: 250 2.0.0 OK 1458664391 tp9sm49535276pab.14 - gsmtp
+Message sent: 250 2.0.0 OK 1458664391 se8sm49530568pac.44 - gsmtp
+Message sent: 250 2.0.0 OK 1458664391 85sm49492872pfl.18 - gsmtp
+Message sent: 250 2.0.0 OK 1458664392 yl1sm49510215pac.35 - gsmtp
+Message sent: 250 2.0.0 OK 1458664392 ko9sm49507585pab.37 - gsmtp
+Message sent: 250 2.0.0 OK 1458664392 y7sm43430491pfa.82 - gsmtp
+Message sent: 250 2.0.0 OK 1458664393 rw2sm49550625pab.30 - gsmtp
+Message sent: 250 2.0.0 OK 1458664393 r68sm49498800pfb.51 - gsmtp
+Message sent: 250 2.0.0 OK 1458664393 o185sm49460871pfo.36 - gsmtp
+Message sent: 250 2.0.0 OK 1458664394 rw2sm49550624pab.30 - gsmtp
+deserializing user: { _id: 56f173f598227c700cb5411a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p200x200/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615',
+     email: 'jnielson94@gmail.com',
+     gender: 'male',
+     lastName: 'Nielson',
+     firstName: 'Jordan',
+     access_token: 'CAADcUa3JSTMBAAdEKnv5M8O7gbz7vwx5cYcT5cEHAW5YMUtxq1nCzaNkm5qAPhpbN89rn8IbVlh6nD9lAdBeit6jAa4WSxUOsNrxZCRXHrHFvhFZA6S45smjDN40C9JgPoM4RUhLRgtVhIYbroykSZCQunUbSMLQ5lZBDEC0nHL647WFQOId9HCK0rjuZAePZB21MGZAdZCdIioZChnLwtWhXs715mXoqBZAs65ZC7cON5BMvcdzZCQTtOgd',
+     id: '10208858072274932' } }
+[90mGET /signout [36m302 [90m6ms - 46b[0m
+[90mGET / [32m200 [90m47ms - 798b[0m
+[90mGET /stylesheets/bootstrap-social.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/images/heartmailtransparent.png [36m304 [90m0ms[0m
+[90mGET /login/facebook [36m302 [90m3ms - 0b[0m
+profile { id: '959794607450110',
+  username: undefined,
+  displayName: undefined,
+  name: { familyName: 'Rowe', givenName: 'Dylan', middleName: undefined },
+  gender: 'male',
+  profileUrl: 'https://www.facebook.com/app_scoped_user_id/959794607450110/',
+  emails: [ { value: 'dylanmrowe@gmail.com' } ],
+  photos: [ { value: 'https://scontent.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p200x200/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E' } ],
+  provider: 'facebook',
+  _raw: '{"id":"959794607450110","email":"dylanmrowe\\u0040gmail.com","gender":"male","link":"https:\\/\\/www.facebook.com\\/app_scoped_user_id\\/959794607450110\\/","locale":"en_US","picture":{"data":{"is_silhouette":false,"url":"https:\\/\\/scontent.xx.fbcdn.net\\/hprofile-xfa1\\/v\\/t1.0-1\\/p200x200\\/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E"}},"last_name":"Rowe","first_name":"Dylan","timezone":-6,"updated_time":"2015-12-24T00:58:42+0000","verified":true}',
+  _json: 
+   { id: '959794607450110',
+     email: 'dylanmrowe@gmail.com',
+     gender: 'male',
+     link: 'https://www.facebook.com/app_scoped_user_id/959794607450110/',
+     locale: 'en_US',
+     picture: { data: [Object] },
+     last_name: 'Rowe',
+     first_name: 'Dylan',
+     timezone: -6,
+     updated_time: '2015-12-24T00:58:42+0000',
+     verified: true } }
+serializing user: 
+{ _id: 56f16b6a407ab1fb0bdd813a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p200x200/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E',
+     email: 'dylanmrowe@gmail.com',
+     gender: 'male',
+     lastName: 'Rowe',
+     firstName: 'Dylan',
+     access_token: 'CAADcUa3JSTMBAHHXwGMESTKcIGWGf1OZBLG7yPaH1sZAfNUHU8rDXmbszOmhMNgfxp7fFyCOzTZBLknke24X8FzbOCZCZABntUgPT1zSjZCERJNZAX54r1nJLVt8zL56yTMBIlPX2OrRsv3xcPJes1YP7QEG5NMZAEbFGPptwxf4gCpmbY0NPlZCZB3PCgd02l1RUphQUTNnlTDxZC6xYFDDEDM6Ol0eNvIokdJEFVeAdvzowZDZD',
+     id: '959794607450110' } }
+[90mGET /login/facebook/callback?code=AQCGXrzffogr_izwpAlqUOuvZLlU6K1IEaWEZNnDcVx_C1XLADt89N0XP3v34V48_RwIOLZPFySK4LG3rGskBB5oGpK9q9fZt11O6HVvzuAm1tPdyzVLbCEUqvE7cu8xf0F2oOeJ9rm--S9wIPjzPetK6Hn-LET2txzKSGplVrLf6paXlIDBiOLIa00nKjqLLeDJ6usm7-kOn5an9578cELEzDDdwOIe2i5WT90qNohHNnaQLkpunh-PAe0KXLtH2aF4oAe6zccUWSZUlD-rGxLtQTlaQAbgn7BOZooJcf5jfr6-BC2JrSnimuRZaLw5A4uBtJXsbjmzvsKRe1SQaPYzrhLKfZS4S9tKEITul4_tho8q_eNPowlN15cDL01KIGI [36m302 [90m220ms - 54b[0m
+deserializing user: { _id: 56f16b6a407ab1fb0bdd813a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p200x200/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E',
+     email: 'dylanmrowe@gmail.com',
+     gender: 'male',
+     lastName: 'Rowe',
+     firstName: 'Dylan',
+     access_token: 'CAADcUa3JSTMBAHHXwGMESTKcIGWGf1OZBLG7yPaH1sZAfNUHU8rDXmbszOmhMNgfxp7fFyCOzTZBLknke24X8FzbOCZCZABntUgPT1zSjZCERJNZAX54r1nJLVt8zL56yTMBIlPX2OrRsv3xcPJes1YP7QEG5NMZAEbFGPptwxf4gCpmbY0NPlZCZB3PCgd02l1RUphQUTNnlTDxZC6xYFDDEDM6Ol0eNvIokdJEFVeAdvzowZDZD',
+     id: '959794607450110' } }
+[90mGET /home [36m304 [90m47ms[0m
+[90mGET /stylesheets/bootstrap-social.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+deserializing user: { _id: 56f16b6a407ab1fb0bdd813a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p200x200/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E',
+     email: 'dylanmrowe@gmail.com',
+     gender: 'male',
+     lastName: 'Rowe',
+     firstName: 'Dylan',
+     access_token: 'CAADcUa3JSTMBAHHXwGMESTKcIGWGf1OZBLG7yPaH1sZAfNUHU8rDXmbszOmhMNgfxp7fFyCOzTZBLknke24X8FzbOCZCZABntUgPT1zSjZCERJNZAX54r1nJLVt8zL56yTMBIlPX2OrRsv3xcPJes1YP7QEG5NMZAEbFGPptwxf4gCpmbY0NPlZCZB3PCgd02l1RUphQUTNnlTDxZC6xYFDDEDM6Ol0eNvIokdJEFVeAdvzowZDZD',
+     id: '959794607450110' } }
+[90mGET /signout [36m302 [90m4ms - 46b[0m
+[90mGET / [36m304 [90m53ms[0m
+[90mGET /stylesheets/bootstrap-social.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET /stylesheets/images/heartmailtransparent.png [36m304 [90m0ms[0m
+[90mGET /login/facebook [36m302 [90m1ms - 0b[0m
+profile { id: '959794607450110',
+  username: undefined,
+  displayName: undefined,
+  name: { familyName: 'Rowe', givenName: 'Dylan', middleName: undefined },
+  gender: 'male',
+  profileUrl: 'https://www.facebook.com/app_scoped_user_id/959794607450110/',
+  emails: [ { value: 'dylanmrowe@gmail.com' } ],
+  photos: [ { value: 'https://scontent.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p200x200/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E' } ],
+  provider: 'facebook',
+  _raw: '{"id":"959794607450110","email":"dylanmrowe\\u0040gmail.com","gender":"male","link":"https:\\/\\/www.facebook.com\\/app_scoped_user_id\\/959794607450110\\/","locale":"en_US","picture":{"data":{"is_silhouette":false,"url":"https:\\/\\/scontent.xx.fbcdn.net\\/hprofile-xfa1\\/v\\/t1.0-1\\/p200x200\\/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E"}},"last_name":"Rowe","first_name":"Dylan","timezone":-6,"updated_time":"2015-12-24T00:58:42+0000","verified":true}',
+  _json: 
+   { id: '959794607450110',
+     email: 'dylanmrowe@gmail.com',
+     gender: 'male',
+     link: 'https://www.facebook.com/app_scoped_user_id/959794607450110/',
+     locale: 'en_US',
+     picture: { data: [Object] },
+     last_name: 'Rowe',
+     first_name: 'Dylan',
+     timezone: -6,
+     updated_time: '2015-12-24T00:58:42+0000',
+     verified: true } }
+serializing user: 
+{ _id: 56f16b6a407ab1fb0bdd813a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p200x200/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E',
+     email: 'dylanmrowe@gmail.com',
+     gender: 'male',
+     lastName: 'Rowe',
+     firstName: 'Dylan',
+     access_token: 'CAADcUa3JSTMBAHHXwGMESTKcIGWGf1OZBLG7yPaH1sZAfNUHU8rDXmbszOmhMNgfxp7fFyCOzTZBLknke24X8FzbOCZCZABntUgPT1zSjZCERJNZAX54r1nJLVt8zL56yTMBIlPX2OrRsv3xcPJes1YP7QEG5NMZAEbFGPptwxf4gCpmbY0NPlZCZB3PCgd02l1RUphQUTNnlTDxZC6xYFDDEDM6Ol0eNvIokdJEFVeAdvzowZDZD',
+     id: '959794607450110' } }
+[90mGET /login/facebook/callback?code=AQDjzDnxXUbmT9WbptNj6ZWhALQEIoBKNDdDpmXFZ2tluMwPlZ53W1JSxH_MmdQ63TijllEDYWrzpLSRdxgGjuDe1gySmVheoGCWIJGJBTWdB4qNaPyqn0p9KBmixmjmFQ8tNNkPh-Tdd2JxqgEhrKiuGxG0LK_eyr3i4ykY-kFyaTTRU0tktbGfAehwKgdSYDosr5sh-3Bz6l5NMIZlzJbpxIhC7T63SqT08OivngbaSid9PQVytozIFdNkkKECqFE1aRS3B95hJF1py0nB9CqDxHElGGlU0lALLuDViVawOQpNYiSmwIkAluZJx9EspVWV7JDzt16uWULG67_xwGzpRBGXUId38zqUC9xQNt4bQrJcYZZ6HyVSlw57fDgSZDw [36m302 [90m218ms - 54b[0m
+deserializing user: { _id: 56f16b6a407ab1fb0bdd813a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p200x200/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E',
+     email: 'dylanmrowe@gmail.com',
+     gender: 'male',
+     lastName: 'Rowe',
+     firstName: 'Dylan',
+     access_token: 'CAADcUa3JSTMBAHHXwGMESTKcIGWGf1OZBLG7yPaH1sZAfNUHU8rDXmbszOmhMNgfxp7fFyCOzTZBLknke24X8FzbOCZCZABntUgPT1zSjZCERJNZAX54r1nJLVt8zL56yTMBIlPX2OrRsv3xcPJes1YP7QEG5NMZAEbFGPptwxf4gCpmbY0NPlZCZB3PCgd02l1RUphQUTNnlTDxZC6xYFDDEDM6Ol0eNvIokdJEFVeAdvzowZDZD',
+     id: '959794607450110' } }
+[90mGET /home [36m304 [90m51ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/bootstrap-social.css [36m304 [90m1ms[0m
+deserializing user: { _id: 56f16b6a407ab1fb0bdd813a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xfa1/v/t1.0-1/p200x200/11811296_848419625254276_6670916260153711808_n.jpg?oh=ecc996baacc67443896fa9d8797d309e&oe=578B533E',
+     email: 'dylanmrowe@gmail.com',
+     gender: 'male',
+     lastName: 'Rowe',
+     firstName: 'Dylan',
+     access_token: 'CAADcUa3JSTMBAHHXwGMESTKcIGWGf1OZBLG7yPaH1sZAfNUHU8rDXmbszOmhMNgfxp7fFyCOzTZBLknke24X8FzbOCZCZABntUgPT1zSjZCERJNZAX54r1nJLVt8zL56yTMBIlPX2OrRsv3xcPJes1YP7QEG5NMZAEbFGPptwxf4gCpmbY0NPlZCZB3PCgd02l1RUphQUTNnlTDxZC6xYFDDEDM6Ol0eNvIokdJEFVeAdvzowZDZD',
+     id: '959794607450110' } }
+[90mGET /signout [36m302 [90m3ms - 46b[0m
+[90mGET / [36m304 [90m33ms[0m
+[90mGET /stylesheets/bootstrap-social.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET /stylesheets/images/heartmailtransparent.png [36m304 [90m1ms[0m
+[90mGET / [36m304 [90m34ms[0m
+[90mGET /stylesheets/bootstrap-social.css [36m304 [90m1ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m52ms - 798b[0m
+[90mGET /stylesheets/style.css [32m200 [90m6ms - 1.81kb[0m
+[90mGET /stylesheets/bootstrap-social.css [32m200 [90m18ms - 19.02kb[0m
+[90mGET /stylesheets/images/heartmailtransparent.png [32m200 [90m101ms - 145.94kb[0m
+[90mGET /login/facebook [36m302 [90m1ms - 0b[0m
+profile { id: '10208858072274932',
+  username: undefined,
+  displayName: undefined,
+  name: 
+   { familyName: 'Nielson',
+     givenName: 'Jordan',
+     middleName: undefined },
+  gender: 'male',
+  profileUrl: 'https://www.facebook.com/app_scoped_user_id/10208858072274932/',
+  emails: [ { value: 'jnielson94@gmail.com' } ],
+  photos: [ { value: 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p200x200/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615' } ],
+  provider: 'facebook',
+  _raw: '{"id":"10208858072274932","email":"jnielson94\\u0040gmail.com","gender":"male","link":"https:\\/\\/www.facebook.com\\/app_scoped_user_id\\/10208858072274932\\/","locale":"en_US","picture":{"data":{"is_silhouette":false,"url":"https:\\/\\/scontent.xx.fbcdn.net\\/hprofile-xta1\\/v\\/t1.0-1\\/p200x200\\/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615"}},"last_name":"Nielson","first_name":"Jordan","timezone":-6,"updated_time":"2015-11-16T04:30:25+0000","verified":true}',
+  _json: 
+   { id: '10208858072274932',
+     email: 'jnielson94@gmail.com',
+     gender: 'male',
+     link: 'https://www.facebook.com/app_scoped_user_id/10208858072274932/',
+     locale: 'en_US',
+     picture: { data: [Object] },
+     last_name: 'Nielson',
+     first_name: 'Jordan',
+     timezone: -6,
+     updated_time: '2015-11-16T04:30:25+0000',
+     verified: true } }
+serializing user: 
+{ _id: 56f173f598227c700cb5411a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p200x200/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615',
+     email: 'jnielson94@gmail.com',
+     gender: 'male',
+     lastName: 'Nielson',
+     firstName: 'Jordan',
+     access_token: 'CAADcUa3JSTMBAAdEKnv5M8O7gbz7vwx5cYcT5cEHAW5YMUtxq1nCzaNkm5qAPhpbN89rn8IbVlh6nD9lAdBeit6jAa4WSxUOsNrxZCRXHrHFvhFZA6S45smjDN40C9JgPoM4RUhLRgtVhIYbroykSZCQunUbSMLQ5lZBDEC0nHL647WFQOId9HCK0rjuZAePZB21MGZAdZCdIioZChnLwtWhXs715mXoqBZAs65ZC7cON5BMvcdzZCQTtOgd',
+     id: '10208858072274932' } }
+[90mGET /login/facebook/callback?code=AQBajm2aAxaYaWNMyzz9Cr8B99cmgtLE30qOsTgk5UqeNihAj1_cxEL3toT4JsbouchSW2Przoo-bXQelIXt5veWgq4IFYlgQ8mXnCwbUKnT-EQ22n6rhhpwczvqgPcVWzqklELiQsM2O_Tb_DIEfwmhMUCTjms9eUHT29ICGavRSEaQJoIrNgvrHFpgxNIBNOOvTHu-dNrMfTaP1cYArH1A6bVL0GsX33xq6-WcQUS-qlvVOkWbodWCKrXtjJWM2dqmTARZidkPfgUBY_0R-ruWfZWrr_SXkg_SL88G0aWLb8H4NDl5ljvoNhDufV9Q4sT7-Cl-XTE2a2KLX_nodSpe_YEtFFFPaAZO16FmlE7Zew [36m302 [90m229ms - 54b[0m
+deserializing user: { _id: 56f173f598227c700cb5411a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p200x200/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615',
+     email: 'jnielson94@gmail.com',
+     gender: 'male',
+     lastName: 'Nielson',
+     firstName: 'Jordan',
+     access_token: 'CAADcUa3JSTMBAAdEKnv5M8O7gbz7vwx5cYcT5cEHAW5YMUtxq1nCzaNkm5qAPhpbN89rn8IbVlh6nD9lAdBeit6jAa4WSxUOsNrxZCRXHrHFvhFZA6S45smjDN40C9JgPoM4RUhLRgtVhIYbroykSZCQunUbSMLQ5lZBDEC0nHL647WFQOId9HCK0rjuZAePZB21MGZAdZCdIioZChnLwtWhXs715mXoqBZAs65ZC7cON5BMvcdzZCQTtOgd',
+     id: '10208858072274932' } }
+[90mGET /home [32m200 [90m47ms - 964b[0m
+[90mGET /stylesheets/bootstrap-social.css [32m200 [90m1ms - 19.02kb[0m
+[90mGET /stylesheets/style.css [32m200 [90m0ms - 1.81kb[0m
+deserializing user: { _id: 56f173f598227c700cb5411a,
+  __v: 0,
+  twitter: {},
+  fb: 
+   { picture1: 'https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p200x200/12243107_10207945797308628_6648969185824577044_n.jpg?oh=e3a254e2f8b59dc1cfbc6e2a6b86b3a2&oe=5787C615',
+     email: 'jnielson94@gmail.com',
+     gender: 'male',
+     lastName: 'Nielson',
+     firstName: 'Jordan',
+     access_token: 'CAADcUa3JSTMBAAdEKnv5M8O7gbz7vwx5cYcT5cEHAW5YMUtxq1nCzaNkm5qAPhpbN89rn8IbVlh6nD9lAdBeit6jAa4WSxUOsNrxZCRXHrHFvhFZA6S45smjDN40C9JgPoM4RUhLRgtVhIYbroykSZCQunUbSMLQ5lZBDEC0nHL647WFQOId9HCK0rjuZAePZB21MGZAdZCdIioZChnLwtWhXs715mXoqBZAs65ZC7cON5BMvcdzZCQTtOgd',
+     id: '10208858072274932' } }
+[90mGET /signout [36m302 [90m3ms - 46b[0m
+[90mGET / [32m200 [90m36ms - 798b[0m
+[90mGET /stylesheets/style.css [32m200 [90m1ms - 1.81kb[0m
+[90mGET /stylesheets/bootstrap-social.css [32m200 [90m1ms - 19.02kb[0m
+[90mGET /stylesheets/images/heartmailtransparent.png [32m200 [90m91ms - 145.94kb[0m
